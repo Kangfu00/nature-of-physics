@@ -255,7 +255,7 @@ body {
     font-size: 30px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1240px) {
     .box1 {
         padding-left: 50px;
         padding-top: 15vh;
@@ -513,7 +513,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (max-width: 890px) {
     .box1 {
         padding-left: 50px;
         padding-top: 10vh;
@@ -767,7 +767,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
     .box1 {
         padding-left: 20px;
         padding-top: 1vh;
@@ -892,7 +892,7 @@ body {
     }
     
     .box3, .box4, .box5 {
-        padding-top: 10vh;
+        padding-top: 15vh;
         background:rgb(20, 20, 20);
         height: 45vh;
         font-size: 5px;
