@@ -1,0 +1,986 @@
+body {
+    font-family: 'KoHo', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: rgb(34, 34, 34);
+    
+}
+
+.box1 {
+    padding-left: 100px;
+    padding-top: 15vh;
+    text-align: left;
+    background: linear-gradient(to top, rgba(0,0,0,0.55)50%,rgba(0,0,0,0.55)50%),url(anna-tsukanova-fd-WSgpyahc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    font-size: 30px;
+    color: white;
+}
+
+.box_b {
+    background: rgb(255,77,121);
+    background: linear-gradient(90deg, rgba(255,0,63,1) 0%, rgba(0,212,255,1) 100%);
+    width: 1080px;
+    height: 10px;
+    border-radius: 40px;
+}
+
+.box2 {
+    padding-left: 100px;
+    padding-top: 5vh;
+    height: 95vh;
+    background: rgb(20, 20, 20);
+    box-shadow: 0px -50px 85px 50px rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box2_B1 {
+    text-align: center;
+}
+
+.box2_B2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.box_B2_IM1 {
+    display: inline-block;
+    margin-top: 5vh;
+    background-image: url(benjamin-lehman-1KDwH7yWknw-unsplash.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 45vh;
+    margin-right: 50px;
+    border-radius: 30px;
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box_B2_IM1:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box_B2_IM2 {
+    display: inline-block;
+    margin-top: 5vh;
+    background-image: url(laura-adai-hnc2QeA5Xos-unsplash.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 45vh;
+    margin-right: 50px;
+    border-radius: 30px;
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box_B2_IM2:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box_B2_IM3 {
+    display: inline-block;
+    margin-top: 5vh;
+    background-image: url(kajetan-sumila-_I1D6EBx8-8-unsplash.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 45vh;
+    margin-right: 50px;
+    border-radius: 30px;
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box_B2_IM3:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box_B2_IM4 {
+    display: inline-block;
+    margin-top: 5vh;
+    background-image: url(karl-paul-baldacchino-t8i6h0Biynk-unsplash.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 45vh;
+    margin-right: 50px;
+    border-radius: 30px;
+    transform-origin: center top;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box_B2_IM4:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box2_B1_T1 {
+    text-shadow: 0 0 30px;
+}
+
+.box3, .box4, .box5 {
+    padding-right: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 15vh;
+    background:rgb(20, 20, 20);
+    height: 85vh;
+    font-size: 20px;
+    color: white;
+}
+
+.box3_B1, .box4_B1, .box5_B1 {
+        text-align: center;
+        text-shadow: 0 0 30px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    
+}
+
+.box3_B2, .box4_B2, .box5_B2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 70px;
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+.box3_B1,.box3_B2 {
+    text-align: center;
+    padding-right: 70px;
+}
+
+.box3_B1 {
+    padding-top: 20vh;
+}
+
+.box3_IM {
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    width: 30%;
+    height: 80vh;
+    float: right;
+    border-radius: 30px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box4_IM {
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    width: 30%;
+    height: 80vh;
+    float: left;
+    border-radius: 30px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.box4_IM:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box3_IM:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+
+.box5 {
+    padding-right: 70px;
+}
+
+.box4_B1, .box4_B2 {
+    text-align: center;
+}
+
+.box5_B1 {
+    padding-top: 10vh;
+}
+
+.box5_B1 {
+    padding-top: 30vh;
+}
+
+.box6 {
+    padding-left: 100px;
+    padding-top: 25vh;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(20,20,20,1)20%,rgba(20,20,20,0.55)50%),url(mahdi-bafande-qsEJUVH9CkU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    font-size: 20px;
+    color: white;
+}
+
+.TM {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+}
+
+.T1 {
+    color: rgb(255, 77, 121);
+    font-size: 200px;
+    font-weight: bold;
+    text-shadow: 0 0 30px;
+}
+
+.T2 {
+    color: rgb(255, 77, 121);
+    font-weight: bold;
+    text-shadow: 0 0 30px;
+}
+
+.T0 {
+    padding: 15px;
+    margin: 0;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .box1 {
+        padding-left: 50px;
+        padding-top: 15vh;
+        text-align: left;
+        background: linear-gradient(to top, rgba(0,0,0,0.55)50%,rgba(0,0,0,0.55)50%),url(anna-tsukanova-fd-WSgpyahc-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 85vh;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .box_b {
+        background: rgb(255,77,121);
+        background: linear-gradient(90deg, rgba(255,0,63,1) 0%, rgba(0,212,255,1) 100%);
+        width: 700px;
+        height: 10px;
+        border-radius: 40px;
+    }
+    
+    .box2 {
+        padding-left: 100px;
+        padding-top: 5vh;
+        height: 95vh;
+        background: rgb(20, 20, 20);
+        box-shadow: 0px -50px 85px 50px rgb(20, 20, 20);
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .box2_B1 {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .box2_B2 {
+        margin-top: 30px;
+        text-align: center;
+        margin-right: 70px;
+        font-size: 15px;
+    }
+    
+    .box_B2_IM1 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(benjamin-lehman-1KDwH7yWknw-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 45vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM1:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM2 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(laura-adai-hnc2QeA5Xos-unsplash.jpg);
+        background-size: cover;
+        width: 0;
+        height: 0;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM2:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM3 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(kajetan-sumila-_I1D6EBx8-8-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 45vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM3:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM4 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(karl-paul-baldacchino-t8i6h0Biynk-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 45vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM4:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box2_B1_T1 {
+        text-shadow: 0 0 30px;
+    }
+    
+    .box3, .box4, .box5 {
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 100px;
+        padding-top: 10vh;
+        background:rgb(20, 20, 20);
+        height: 70vh;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .box3_B1, .box4_B1, .box5_B1 {
+            padding-top: 5vh;
+            text-align: center;
+            text-shadow: 0 0 30px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+            font-size: 15px;
+        
+    }
+    
+    .box3_B2, .box4_B2, .box5_B2 {
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 70px;
+        font-size: 15px;
+        margin-right: 70px;
+    }
+    
+    .box3_B1,.box3_B2 {
+        text-align: center;
+        padding-right: 70px;
+    }
+    
+    .box3_B1 {
+        padding-top: 5vh;
+    }
+    
+    .box3_IM {
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 30px;
+        display: flex;
+        width: 30%;
+        height: 50vh;
+        float: right;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM {
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 30%;
+        height: 50vh;
+        float: left;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box3_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box5 {
+        padding-right: 70px;
+        font-size: 15px;
+        box-shadow: 0 0 20px 30px, rgb(20, 20, 20);
+    }
+    
+    .box4_B1, .box4_B2 {
+        text-align: center;
+    }
+    
+    .box5_B1 {
+        padding-top: 20vh;
+    }
+    
+    .box5_B2 {
+        padding-top: 0vh;
+        font-size: 15px;
+    }
+    
+    .box6 {
+        padding-left: 100px;
+        padding-top: 15vh;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(20,20,20,1)10%,rgba(20,20,20,0.55)50%),url(mahdi-bafande-qsEJUVH9CkU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 85vh;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .TM {
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        font-size: 70px;
+    }
+    
+    .T1 {
+        color: rgb(255, 77, 121);
+        font-size: 150px;
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T2 {
+        color: rgb(255, 77, 121);
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T0 {
+        padding: 15px;
+        margin: 0;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .box1 {
+        padding-left: 50px;
+        padding-top: 10vh;
+        text-align: left;
+        background: linear-gradient(to top, rgba(0,0,0,0.55)50%,rgba(0,0,0,0.55)50%),url(anna-tsukanova-fd-WSgpyahc-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .box_b {
+        background: rgb(255,77,121);
+        background: linear-gradient(90deg, rgba(255,0,63,1) 0%, rgba(0,212,255,1) 100%);
+        width: 550px;
+        height: 10px;
+        border-radius: 40px;
+    }
+    
+    .box2 {
+        padding-left: 100px;
+        padding-top: 5vh;
+        height: 95vh;
+        background: rgb(20, 20, 20);
+        box-shadow: 0px -50px 85px 50px rgb(20, 20, 20);
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .box2_B1 {
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .box2_B2 {
+        margin-top: 30px;
+        text-align: center;
+        margin-right: 70px;
+        font-size: 13px;
+    }
+    
+    .box_B2_IM1 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(benjamin-lehman-1KDwH7yWknw-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 35vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM1:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM2 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(laura-adai-hnc2QeA5Xos-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 35vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM2:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM3 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(kajetan-sumila-_I1D6EBx8-8-unsplash.jpg);
+        background-size: cover;
+        width: 20%;
+        height: 35vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM3:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM4 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(karl-paul-baldacchino-t8i6h0Biynk-unsplash.jpg);
+        background-size: cover;
+        width: 0;
+        height: 0;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM4:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box2_B1_T1 {
+        text-shadow: 0 0 30px;
+    }
+    
+    .box3, .box4, .box5 {
+        padding-right: 30px;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 100px;
+        padding-top: 10vh;
+        background:rgb(20, 20, 20);
+        height: 60vh;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .box3_B1, .box4_B1, .box5_B1 {
+            padding-top: 3vh;
+            text-align: center;
+            text-shadow: 0 0 30px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+        
+    }
+    
+    .box3_B2, .box4_B2, .box5_B2 {
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 70px;
+        font-size: 13px;
+        margin-right: 70px;
+    }
+    
+    .box3_B1,.box3_B2 {
+        text-align: center;
+        padding-right: 70px;
+    }
+    
+    .box3_IM {
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 30px;
+        background-size: cover;
+        display: flex;
+        width: 30%;
+        height: 45vh;
+        float: right;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM {
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 30%;
+        height: 50vh;
+        float: left;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box3_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box5 {
+        padding-right: 70px;
+        font-size: 15px;
+        box-shadow: 0 0 20px 30px, rgb(20, 20, 20);
+    }
+    
+    .box4_B1, .box4_B2 {
+        text-align: center;
+    }
+    
+    .box5_B1 {
+        padding-top: 20vh;
+    }
+    
+    .box5_B2 {
+        padding-top: 0vh;
+        font-size: 15px;
+    }
+    
+    .box6 {
+        padding-top: 10vh;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(20,20,20,1)10%,rgba(20,20,20,0.55)50%),url(mahdi-bafande-qsEJUVH9CkU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .TM {
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+    }
+    
+    .T1 {
+        color: rgb(255, 77, 121);
+        font-size: 100px;
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T2 {
+        color: rgb(255, 77, 121);
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T0 {
+        padding: 15px;
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .box1 {
+        padding-left: 50px;
+        padding-top: 7vh;
+        text-align: left;
+        background: linear-gradient(to top, rgba(0,0,0,0.55)50%,rgba(0,0,0,0.55)50%),url(anna-tsukanova-fd-WSgpyahc-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 43vh;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .box_b {
+        background: rgb(255,77,121);
+        background: linear-gradient(90deg, rgba(255,0,63,1) 0%, rgba(0,212,255,1) 100%);
+        width: 350px;
+        height: 10px;
+        border-radius: 40px;
+    }
+    
+    .box2 {
+        padding-top: 5vh;
+        height: 95vh;
+        background: rgb(20, 20, 20);
+        box-shadow: 0px -50px 85px 50px rgb(20, 20, 20);
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .box2_B1 {
+        text-align: left;
+        font-size: 10px;
+    }
+    
+    .box2_B2 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .box_B2_IM1 {
+        text-align: center;
+        margin-top: 5vh;
+        background-image: url(benjamin-lehman-1KDwH7yWknw-unsplash.jpg);
+        background-size: cover;
+        width: 70%;
+        height: 35vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM1:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM2 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(laura-adai-hnc2QeA5Xos-unsplash.jpg);
+        background-size: cover;
+        width: 0;
+        height: 0vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM2:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM3 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(kajetan-sumila-_I1D6EBx8-8-unsplash.jpg);
+        background-size: cover;
+        width: 0;
+        height: 0vh;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM3:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box_B2_IM4 {
+        display: inline-block;
+        margin-top: 5vh;
+        background-image: url(karl-paul-baldacchino-t8i6h0Biynk-unsplash.jpg);
+        background-size: cover;
+        width: 0;
+        height: 0;
+        margin-right: 50px;
+        border-radius: 30px;
+        transform-origin: center top;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box_B2_IM4:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box2_B1_T1 {
+        text-shadow: 0 0 30px;
+    }
+    
+    .box3, .box4, .box5 {
+        margin-right: 0;
+        padding-top: 10vh;
+        background:rgb(20, 20, 20);
+        height: 60vh;
+        font-size: 10px;
+        color: white;
+    }
+    
+    .box3_B1, .box4_B1, .box5_B1 {
+            text-align: center;
+            text-shadow: 0 0 30px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+            font-size: 10px;
+        
+    }
+    
+    .box3_B2, .box4_B2, .box5_B2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    
+    .box3_IM {
+        width: 0;
+        height: 0;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM {
+        width: 0;
+        height: 0;
+    }
+    
+    .box4_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box3_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box5 {
+        font-size: 10px;
+        box-shadow: 0 0 20px 30px, rgb(20, 20, 20);
+    }
+    
+    .box5_B2 {
+        padding-top: 0vh;
+        font-size: 10px;
+    }
+
+    .box6 {
+        padding-top: 10vh;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(20,20,20,1)10%,rgba(20,20,20,0.55)50%),url(mahdi-bafande-qsEJUVH9CkU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        font-size: 10px;
+        color: white;
+    }
+    
+    .TM {
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        font-size: 35px;
+    }
+    
+    .T1 {
+        color: rgb(255, 77, 121);
+        font-size: 75px;
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T2 {
+        color: rgb(255, 77, 121);
+        font-weight: bold;
+        text-shadow: 0 0 30px;
+    }
+    
+    .T0 {
+        padding: 15px;
+        margin: 0;
+        font-size: 15px;
+    }
+}
