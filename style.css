@@ -529,8 +529,8 @@ body {
     .box_b {
         background: rgb(255,77,121);
         background: linear-gradient(90deg, rgba(255,0,63,1) 0%, rgba(0,212,255,1) 100%);
-        width: 550px;
-        height: 10px;
+        width: 480px;
+        height: 5px;
         border-radius: 40px;
     }
     
@@ -767,7 +767,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     .box1 {
         padding-left: 20px;
         padding-top: 1vh;
@@ -790,38 +790,40 @@ body {
     
     .box2 {
         padding-top: 5vh;
-        height: 95vh;
+        height: 125vh;
         background: rgb(20, 20, 20);
         box-shadow: 0px -50px 85px 50px rgb(20, 20, 20);
         color: white;
-        text-align: center;
         font-size: 5px;
+        padding-left: 25px;
+        text-align: center;
     }
     
     .box2_B1 {
-        text-align: center;
+        text-align: left;
         font-size: 5px;
+        padding-left: 50px;
     }
     
     .box2_B2 {
         margin-top: 20px;
         text-align: center;
         font-size: 5px;
+        padding-left: 50px;
     }
     
     .box_B2_IM1 {
+        padding-left: 20px;
         text-align: center;
-        margin-top: 5vh;
+        margin-top: 2vh;
         background-image: url(benjamin-lehman-1KDwH7yWknw-unsplash.jpg);
         background-size: cover;
-        width: 0;
-        height: 0vh;
-        margin-right: 50px;
+        width: 90%;
+        height: 50vh;
         border-radius: 30px;
         transform-origin: center top;
         transition-property: transform;
         transition-duration: 1s;
-        display: none;
     }
     
     .box_B2_IM1:hover {
@@ -894,7 +896,7 @@ body {
     .box3, .box4, .box5 {
         padding-top: 15vh;
         background:rgb(20, 20, 20);
-        height: 45vh;
+        height: 55vh;
         font-size: 5px;
         color: white;
         padding: 30px;
@@ -919,21 +921,40 @@ body {
     }
     
     .box3_IM {
-        display: none;
-        width: 0;
-        height: 0;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 30px;
+        background-size: cover;
+        display: flex;
+        width: 40%;
+        height: 20vh;
+        float: right;
         border-radius: 30px;
         transition-property: transform;
         transition-duration: 1s;
     }
-
+    
     .box4_IM {
-        margin: 0;
-        padding: 0;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 30%;
+        height: 20vh;
         float: left;
-        display: none;
-        width: 0;
-        height: 0;
+        border-radius: 30px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    
+    .box4_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    
+    .box3_IM:hover {
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
     }
     
     .box5 {
@@ -943,11 +964,6 @@ body {
     
     .box5_B2 {
         font-size: 5px;
-    }
-
-    .box4_B1 {
-        float: left;
-        text-align: left;
     }
 
     .box6 {
@@ -986,6 +1002,10 @@ body {
         padding-top: 15px;
         margin: 0;
         font-size: 8px;
+    }
+
+    .box3, .box4, .box5 {
+        text-align: center;
     }
 
 }
