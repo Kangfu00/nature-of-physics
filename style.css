@@ -1011,7 +1011,7 @@ body {
 
 }
 
-@media only screen and (max-height: 680px) {
+@media only screen and (max-height: 480px) {
     .box1 {
         height: 170vh;
     }
@@ -1021,7 +1021,7 @@ body {
     }
 }
 
-@media only screen and (max-height: 270px) {
+@media only screen and (max-height: 170px) {
     .box1 {
         height: 350vh;
     }
