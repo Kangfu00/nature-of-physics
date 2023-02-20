@@ -323,8 +323,8 @@ body {
         margin-top: 5vh;
         background-image: url(laura-adai-hnc2QeA5Xos-unsplash.jpg);
         background-size: cover;
-        width: 0;
-        height: 0;
+        width: 20%;
+        height: 45vh;
         margin-right: 50px;
         border-radius: 30px;
         transform-origin: center top;
@@ -368,6 +368,7 @@ body {
         transform-origin: center top;
         transition-property: transform;
         transition-duration: 1s;
+        display: none;
     }
     
     .box_B2_IM4:hover {
@@ -1008,4 +1009,24 @@ body {
         text-align: center;
     }
 
+}
+
+@media only screen and (max-height: 680px) {
+    .box1 {
+        height: 170vh;
+    }
+
+    .box2, .box3, .box4, .box5 {
+        height: 180vh;
+    }
+}
+
+@media only screen and (max-height: 270px) {
+    .box1 {
+        height: 350vh;
+    }
+
+    .box2, .box3, .box4, .box5 {
+        height: 350vh;
+    }
 }
